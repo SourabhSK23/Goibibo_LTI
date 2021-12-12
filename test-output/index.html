@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>G:\JavaPrograms\goibibo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods, 4 failed,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.HotelTest" hash-for-method="bookinghotelTest">bookinghotelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.HotelTest" hash-for-method="bookinghotelTestwithinvalidemail">bookinghotelTestwithinvalidemail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.HotelTest" hash-for-method="bookinghotelTestwithinvalidnumber">bookinghotelTestwithinvalidnumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.HotelTest" hash-for-method="bookinghotelTestwithnoinput">bookinghotelTestwithnoinput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.LoginPageTest" hash-for-method="ValidateLoginwithInvalidMobile">ValidateLoginwithInvalidMobile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.LoginPageTest" hash-for-method="ValidateLoginwithValidMobileValidOtp">ValidateLoginwithValidMobileValidOtp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.SignupTest" hash-for-method="ValidateSignUpwithInvalidMobile">ValidateSignUpwithInvalidMobile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.SignupTest" hash-for-method="ValidateSignUpwithValidMobileValidOtp">ValidateSignUpwithValidMobileValidOtp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.HotelTest" hash-for-method="invaliadteinputTest">invaliadteinputTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.HotelTest" hash-for-method="noinputTest">noinputTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.HotelTest" hash-for-method="searchfieldTest">searchfieldTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.HotelTest" hash-for-method="selecthotel">selecthotel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.HotelTest" hash-for-method="valiadteTitle">valiadteTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.HotelTest" hash-for-method="valiadteinputTest">valiadteinputTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.LoginPageTest" hash-for-method="validateLoginwithValidMobileInvalidOtp">validateLoginwithValidMobileInvalidOtp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.SignupTest" hash-for-method="validateSignUpwithValidMobileInvalidOtp">validateSignUpwithValidMobileInvalidOtp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.FlightSearchingTest" hash-for-method="validatingBookButtonTest">validatingBookButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.FlightSearchingTest" hash-for-method="validatingDestinationTest">validatingDestinationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.FlightSearchingTest" hash-for-method="validatingFlightSearchTest">validatingFlightSearchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.FlightSearchingTest" hash-for-method="validatingFromSearchTest">validatingFromSearchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.FlightSearchingTest" hash-for-method="validatingInvalidDetailsTest">validatingInvalidDetailsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.FlightSearchingTest" hash-for-method="validatingInvalidSearchTest">validatingInvalidSearchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.FlightSearchingTest" hash-for-method="validatingPaymentPageTest">validatingPaymentPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.FlightSearchingTest" hash-for-method="validatingPersonalDeatilsTest">validatingPersonalDeatilsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.FlightSearchingTest" hash-for-method="validatingSearchTest">validatingSearchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.tetscases.FlightSearchingTest" hash-for-method="validingSameSearchTest">validingSameSearchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.tetscases.HotelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookinghotelTest">
+                  </a> <!-- bookinghotelTest -->
+                  <span class="method-name">bookinghotelTest</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+	at com.pages.Hotelpage.booking(Hotelpage.java:82)
+	at com.pages.Hotelpage.bookingHotel(Hotelpage.java:91)
+	at com.tetscases.HotelTest.bookinghotelTest(HotelTest.java:103)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookinghotelTestwithinvalidemail">
+                  </a> <!-- bookinghotelTestwithinvalidemail -->
+                  <span class="method-name">bookinghotelTestwithinvalidemail</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt&apos;]&quot;}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SOURABHSK&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\91959\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54039}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9680355b7b40020fc86f255c0dc04c77
+*** Element info: {Using=xpath, value=//button[@class=&apos;dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.pages.Hotelpage.booking(Hotelpage.java:83)
+	at com.pages.Hotelpage.bookingHotelinvalidemailid(Hotelpage.java:105)
+	at com.tetscases.HotelTest.bookinghotelTestwithinvalidemail(HotelTest.java:116)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookinghotelTestwithinvalidnumber">
+                  </a> <!-- bookinghotelTestwithinvalidnumber -->
+                  <span class="method-name">bookinghotelTestwithinvalidnumber</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt&apos;]&quot;}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SOURABHSK&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\91959\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1bdc598ae4ea1f970c260e0d274b455d
+*** Element info: {Using=xpath, value=//button[@class=&apos;dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.pages.Hotelpage.booking(Hotelpage.java:83)
+	at com.pages.Hotelpage.bookingHotelinvalidmobileno(Hotelpage.java:117)
+	at com.tetscases.HotelTest.bookinghotelTestwithinvalidnumber(HotelTest.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookinghotelTestwithnoinput">
+                  </a> <!-- bookinghotelTestwithnoinput -->
+                  <span class="method-name">bookinghotelTestwithnoinput</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt&apos;]&quot;}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SOURABHSK&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\91959\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b870a969bbb259d0ae04fce5c19309d1
+*** Element info: {Using=xpath, value=//button[@class=&apos;dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.pages.Hotelpage.booking(Hotelpage.java:83)
+	at com.pages.Hotelpage.bookingHotelnoinput(Hotelpage.java:132)
+	at com.tetscases.HotelTest.bookinghotelTestwithnoinput(HotelTest.java:135)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tetscases.HotelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invaliadteinputTest">
+                  </a> <!-- invaliadteinputTest -->
+                  <span class="method-name">invaliadteinputTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noinputTest">
+                  </a> <!-- noinputTest -->
+                  <span class="method-name">noinputTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchfieldTest">
+                  </a> <!-- searchfieldTest -->
+                  <span class="method-name">searchfieldTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selecthotel">
+                  </a> <!-- selecthotel -->
+                  <span class="method-name">selecthotel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="valiadteTitle">
+                  </a> <!-- valiadteTitle -->
+                  <span class="method-name">valiadteTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="valiadteinputTest">
+                  </a> <!-- valiadteinputTest -->
+                  <span class="method-name">valiadteinputTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tetscases.SignupTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateSignUpwithInvalidMobile">
+                  </a> <!-- ValidateSignUpwithInvalidMobile -->
+                  <span class="method-name">ValidateSignUpwithInvalidMobile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateSignUpwithValidMobileValidOtp">
+                  </a> <!-- ValidateSignUpwithValidMobileValidOtp -->
+                  <span class="method-name">ValidateSignUpwithValidMobileValidOtp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSignUpwithValidMobileInvalidOtp">
+                  </a> <!-- validateSignUpwithValidMobileInvalidOtp -->
+                  <span class="method-name">validateSignUpwithValidMobileInvalidOtp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tetscases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateLoginwithInvalidMobile">
+                  </a> <!-- ValidateLoginwithInvalidMobile -->
+                  <span class="method-name">ValidateLoginwithInvalidMobile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateLoginwithValidMobileValidOtp">
+                  </a> <!-- ValidateLoginwithValidMobileValidOtp -->
+                  <span class="method-name">ValidateLoginwithValidMobileValidOtp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginwithValidMobileInvalidOtp">
+                  </a> <!-- validateLoginwithValidMobileInvalidOtp -->
+                  <span class="method-name">validateLoginwithValidMobileInvalidOtp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tetscases.FlightSearchingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingBookButtonTest">
+                  </a> <!-- validatingBookButtonTest -->
+                  <span class="method-name">validatingBookButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingDestinationTest">
+                  </a> <!-- validatingDestinationTest -->
+                  <span class="method-name">validatingDestinationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingFlightSearchTest">
+                  </a> <!-- validatingFlightSearchTest -->
+                  <span class="method-name">validatingFlightSearchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingFromSearchTest">
+                  </a> <!-- validatingFromSearchTest -->
+                  <span class="method-name">validatingFromSearchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingInvalidDetailsTest">
+                  </a> <!-- validatingInvalidDetailsTest -->
+                  <span class="method-name">validatingInvalidDetailsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingInvalidSearchTest">
+                  </a> <!-- validatingInvalidSearchTest -->
+                  <span class="method-name">validatingInvalidSearchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingPaymentPageTest">
+                  </a> <!-- validatingPaymentPageTest -->
+                  <span class="method-name">validatingPaymentPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingPersonalDeatilsTest">
+                  </a> <!-- validatingPersonalDeatilsTest -->
+                  <span class="method-name">validatingPersonalDeatilsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatingSearchTest">
+                  </a> <!-- validatingSearchTest -->
+                  <span class="method-name">validatingSearchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validingSameSearchTest">
+                  </a> <!-- validingSameSearchTest -->
+                  <span class="method-name">validingSameSearchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">G:\JavaPrograms\goibibo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tetscases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.tetscases.FlightSearchingTest&quot;/&gt;
+      &lt;class name=&quot;com.tetscases.SignupTest&quot;/&gt;
+      &lt;class name=&quot;goibibo.goibibo.AppTest&quot;/&gt;
+      &lt;class name=&quot;com.tetscases.HotelTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ValidateSignUpwithValidMobileValidOtp')
+data.setCell(0, 2, 'com.tetscases.SignupTest')
+data.setCell(0, 3, 20916);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'bookinghotelTestwithnoinput')
+data.setCell(1, 2, 'com.tetscases.HotelTest')
+data.setCell(1, 3, 19824);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'bookinghotelTestwithinvalidnumber')
+data.setCell(2, 2, 'com.tetscases.HotelTest')
+data.setCell(2, 3, 19691);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'bookinghotelTestwithinvalidemail')
+data.setCell(3, 2, 'com.tetscases.HotelTest')
+data.setCell(3, 3, 19453);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'bookinghotelTest')
+data.setCell(4, 2, 'com.tetscases.HotelTest')
+data.setCell(4, 3, 16681);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ValidateLoginwithValidMobileValidOtp')
+data.setCell(5, 2, 'com.tetscases.LoginPageTest')
+data.setCell(5, 3, 13578);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateLoginwithValidMobileInvalidOtp')
+data.setCell(6, 2, 'com.tetscases.LoginPageTest')
+data.setCell(6, 3, 13041);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validatingPersonalDeatilsTest')
+data.setCell(7, 2, 'com.tetscases.FlightSearchingTest')
+data.setCell(7, 3, 13014);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validatingPaymentPageTest')
+data.setCell(8, 2, 'com.tetscases.FlightSearchingTest')
+data.setCell(8, 3, 10439);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'selecthotel')
+data.setCell(9, 2, 'com.tetscases.HotelTest')
+data.setCell(9, 3, 10187);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validatingInvalidDetailsTest')
+data.setCell(10, 2, 'com.tetscases.FlightSearchingTest')
+data.setCell(10, 3, 9934);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateSignUpwithValidMobileInvalidOtp')
+data.setCell(11, 2, 'com.tetscases.SignupTest')
+data.setCell(11, 3, 8482);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validatingBookButtonTest')
+data.setCell(12, 2, 'com.tetscases.FlightSearchingTest')
+data.setCell(12, 3, 8272);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validatingFlightSearchTest')
+data.setCell(13, 2, 'com.tetscases.FlightSearchingTest')
+data.setCell(13, 3, 7177);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validatingFromSearchTest')
+data.setCell(14, 2, 'com.tetscases.FlightSearchingTest')
+data.setCell(14, 3, 5170);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validatingDestinationTest')
+data.setCell(15, 2, 'com.tetscases.FlightSearchingTest')
+data.setCell(15, 3, 5111);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validatingInvalidSearchTest')
+data.setCell(16, 2, 'com.tetscases.FlightSearchingTest')
+data.setCell(16, 3, 5109);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validingSameSearchTest')
+data.setCell(17, 2, 'com.tetscases.FlightSearchingTest')
+data.setCell(17, 3, 5079);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validatingSearchTest')
+data.setCell(18, 2, 'com.tetscases.FlightSearchingTest')
+data.setCell(18, 3, 4890);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'valiadteinputTest')
+data.setCell(19, 2, 'com.tetscases.HotelTest')
+data.setCell(19, 3, 2923);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'ValidateLoginwithInvalidMobile')
+data.setCell(20, 2, 'com.tetscases.LoginPageTest')
+data.setCell(20, 3, 713);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ValidateSignUpwithInvalidMobile')
+data.setCell(21, 2, 'com.tetscases.SignupTest')
+data.setCell(21, 3, 709);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'invaliadteinputTest')
+data.setCell(22, 2, 'com.tetscases.HotelTest')
+data.setCell(22, 3, 645);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'noinputTest')
+data.setCell(23, 2, 'com.tetscases.HotelTest')
+data.setCell(23, 3, 386);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'searchfieldTest')
+data.setCell(24, 2, 'com.tetscases.HotelTest')
+data.setCell(24, 3, 344);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'valiadteTitle')
+data.setCell(25, 2, 'com.tetscases.HotelTest')
+data.setCell(25, 3, 314);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tetscases.FlightSearchingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Reportsetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tetscases.HotelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Reportsetup</span>
+                <span class="method-start">203 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tetscases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Reportsetup</span>
+                <span class="method-start">204 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tetscases.SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Reportsetup</span>
+                <span class="method-start">205 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tetscases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">235 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateLoginwithInvalidMobile</span>
+                <span class="method-start">6687 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeSetup</span>
+                <span class="method-start">7405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">8101 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginwithValidMobileInvalidOtp</span>
+                <span class="method-start">12700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeSetup</span>
+                <span class="method-start">25742 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">26477 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateLoginwithValidMobileValidOtp</span>
+                <span class="method-start">31413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeSetup</span>
+                <span class="method-start">44993 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tetscases.FlightSearchingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">45723 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatingFlightSearchTest</span>
+                <span class="method-start">50375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setupend</span>
+                <span class="method-start">57554 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">58301 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatingInvalidSearchTest</span>
+                <span class="method-start">62771 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setupend</span>
+                <span class="method-start">67881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">68582 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatingFromSearchTest</span>
+                <span class="method-start">73127 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setupend</span>
+                <span class="method-start">78299 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">79466 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatingDestinationTest</span>
+                <span class="method-start">83678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setupend</span>
+                <span class="method-start">88790 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">89483 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validingSameSearchTest</span>
+                <span class="method-start">93709 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setupend</span>
+                <span class="method-start">98789 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">99669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatingSearchTest</span>
+                <span class="method-start">103838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setupend</span>
+                <span class="method-start">108730 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">109584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatingBookButtonTest</span>
+                <span class="method-start">114259 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setupend</span>
+                <span class="method-start">122532 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">123211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatingPersonalDeatilsTest</span>
+                <span class="method-start">128254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setupend</span>
+                <span class="method-start">141270 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">142011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatingInvalidDetailsTest</span>
+                <span class="method-start">146207 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setupend</span>
+                <span class="method-start">156142 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">156874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatingPaymentPageTest</span>
+                <span class="method-start">161783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setupend</span>
+                <span class="method-start">172224 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tetscases.SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">172971 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateSignUpwithInvalidMobile</span>
+                <span class="method-start">177367 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeSetup</span>
+                <span class="method-start">178077 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">178782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateSignUpwithValidMobileInvalidOtp</span>
+                <span class="method-start">183160 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeSetup</span>
+                <span class="method-start">191644 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">192424 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateSignUpwithValidMobileValidOtp</span>
+                <span class="method-start">198116 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeSetup</span>
+                <span class="method-start">219033 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tetscases.HotelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">219751 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">valiadteTitle</span>
+                <span class="method-start">226416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closesetup</span>
+                <span class="method-start">226730 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">227429 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchfieldTest</span>
+                <span class="method-start">233703 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closesetup</span>
+                <span class="method-start">234048 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">234755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">valiadteinputTest</span>
+                <span class="method-start">241434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closesetup</span>
+                <span class="method-start">244357 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">245096 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invaliadteinputTest</span>
+                <span class="method-start">251437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closesetup</span>
+                <span class="method-start">252082 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">252791 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">noinputTest</span>
+                <span class="method-start">259311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closesetup</span>
+                <span class="method-start">259698 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">260413 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selecthotel</span>
+                <span class="method-start">267144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closesetup</span>
+                <span class="method-start">277332 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">278097 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bookinghotelTest</span>
+                <span class="method-start">284917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closesetup</span>
+                <span class="method-start">301606 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">302381 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bookinghotelTestwithinvalidemail</span>
+                <span class="method-start">308935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closesetup</span>
+                <span class="method-start">328391 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">329183 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bookinghotelTestwithinvalidnumber</span>
+                <span class="method-start">335938 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closesetup</span>
+                <span class="method-start">355632 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">356403 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bookinghotelTestwithnoinput</span>
+                <span class="method-start">362692 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closesetup</span>
+                <span class="method-start">382518 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tetscases.FlightSearchingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">GenerateReport</span>
+                <span class="method-start">383321 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tetscases.HotelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">GenerateReport</span>
+                <span class="method-start">383837 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tetscases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">GenerateReport</span>
+                <span class="method-start">383864 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tetscases.SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">GenerateReport</span>
+                <span class="method-start">383882 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="26" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="383900" started-at="2021-12-07T16:42:36 IST" finished-at="2021-12-07T16:49:00 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="383900" started-at="2021-12-07T16:42:36 IST" finished-at="2021-12-07T16:49:00 IST">
+      <class name="com.tetscases.FlightSearchingTest">
+        <test-method status="PASS" signature="Reportsetup()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="Reportsetup" is-config="true" duration-ms="203" started-at="2021-12-07T16:42:36 IST" finished-at="2021-12-07T16:42:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportsetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setup" is-config="true" duration-ms="4652" started-at="2021-12-07T16:43:22 IST" finished-at="2021-12-07T16:43:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatingFlightSearchTest()[pri:6, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="validatingFlightSearchTest" duration-ms="7177" started-at="2021-12-07T16:43:27 IST" finished-at="2021-12-07T16:43:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingFlightSearchTest -->
+        <test-method status="PASS" signature="setupend()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setupend" is-config="true" duration-ms="746" started-at="2021-12-07T16:43:34 IST" finished-at="2021-12-07T16:43:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupend -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setup" is-config="true" duration-ms="4470" started-at="2021-12-07T16:43:34 IST" finished-at="2021-12-07T16:43:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatingInvalidSearchTest()[pri:7, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="validatingInvalidSearchTest" duration-ms="5109" started-at="2021-12-07T16:43:39 IST" finished-at="2021-12-07T16:43:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingInvalidSearchTest -->
+        <test-method status="PASS" signature="setupend()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setupend" is-config="true" duration-ms="700" started-at="2021-12-07T16:43:44 IST" finished-at="2021-12-07T16:43:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupend -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setup" is-config="true" duration-ms="4545" started-at="2021-12-07T16:43:45 IST" finished-at="2021-12-07T16:43:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatingFromSearchTest()[pri:8, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="validatingFromSearchTest" duration-ms="5170" started-at="2021-12-07T16:43:49 IST" finished-at="2021-12-07T16:43:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingFromSearchTest -->
+        <test-method status="PASS" signature="setupend()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setupend" is-config="true" duration-ms="1166" started-at="2021-12-07T16:43:54 IST" finished-at="2021-12-07T16:43:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupend -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setup" is-config="true" duration-ms="4212" started-at="2021-12-07T16:43:56 IST" finished-at="2021-12-07T16:44:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatingDestinationTest()[pri:9, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="validatingDestinationTest" duration-ms="5111" started-at="2021-12-07T16:44:00 IST" finished-at="2021-12-07T16:44:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingDestinationTest -->
+        <test-method status="PASS" signature="setupend()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setupend" is-config="true" duration-ms="693" started-at="2021-12-07T16:44:05 IST" finished-at="2021-12-07T16:44:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupend -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setup" is-config="true" duration-ms="4226" started-at="2021-12-07T16:44:06 IST" finished-at="2021-12-07T16:44:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validingSameSearchTest()[pri:10, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="validingSameSearchTest" duration-ms="5079" started-at="2021-12-07T16:44:10 IST" finished-at="2021-12-07T16:44:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validingSameSearchTest -->
+        <test-method status="PASS" signature="setupend()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setupend" is-config="true" duration-ms="879" started-at="2021-12-07T16:44:15 IST" finished-at="2021-12-07T16:44:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupend -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setup" is-config="true" duration-ms="4169" started-at="2021-12-07T16:44:16 IST" finished-at="2021-12-07T16:44:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatingSearchTest()[pri:11, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="validatingSearchTest" duration-ms="4890" started-at="2021-12-07T16:44:20 IST" finished-at="2021-12-07T16:44:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingSearchTest -->
+        <test-method status="PASS" signature="setupend()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setupend" is-config="true" duration-ms="852" started-at="2021-12-07T16:44:25 IST" finished-at="2021-12-07T16:44:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupend -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setup" is-config="true" duration-ms="4675" started-at="2021-12-07T16:44:26 IST" finished-at="2021-12-07T16:44:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatingBookButtonTest()[pri:12, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="validatingBookButtonTest" duration-ms="8272" started-at="2021-12-07T16:44:30 IST" finished-at="2021-12-07T16:44:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingBookButtonTest -->
+        <test-method status="PASS" signature="setupend()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setupend" is-config="true" duration-ms="679" started-at="2021-12-07T16:44:39 IST" finished-at="2021-12-07T16:44:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupend -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setup" is-config="true" duration-ms="5043" started-at="2021-12-07T16:44:39 IST" finished-at="2021-12-07T16:44:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatingPersonalDeatilsTest()[pri:13, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="validatingPersonalDeatilsTest" duration-ms="13014" started-at="2021-12-07T16:44:44 IST" finished-at="2021-12-07T16:44:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingPersonalDeatilsTest -->
+        <test-method status="PASS" signature="setupend()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setupend" is-config="true" duration-ms="740" started-at="2021-12-07T16:44:57 IST" finished-at="2021-12-07T16:44:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupend -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setup" is-config="true" duration-ms="4196" started-at="2021-12-07T16:44:58 IST" finished-at="2021-12-07T16:45:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatingInvalidDetailsTest()[pri:14, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="validatingInvalidDetailsTest" duration-ms="9934" started-at="2021-12-07T16:45:02 IST" finished-at="2021-12-07T16:45:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingInvalidDetailsTest -->
+        <test-method status="PASS" signature="setupend()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setupend" is-config="true" duration-ms="731" started-at="2021-12-07T16:45:12 IST" finished-at="2021-12-07T16:45:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupend -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setup" is-config="true" duration-ms="4909" started-at="2021-12-07T16:45:13 IST" finished-at="2021-12-07T16:45:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatingPaymentPageTest()[pri:15, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="validatingPaymentPageTest" duration-ms="10439" started-at="2021-12-07T16:45:18 IST" finished-at="2021-12-07T16:45:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingPaymentPageTest -->
+        <test-method status="PASS" signature="setupend()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="setupend" is-config="true" duration-ms="746" started-at="2021-12-07T16:45:28 IST" finished-at="2021-12-07T16:45:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupend -->
+        <test-method status="PASS" signature="GenerateReport()[pri:0, instance:com.tetscases.FlightSearchingTest@384ad17b]" name="GenerateReport" is-config="true" duration-ms="516" started-at="2021-12-07T16:49:00 IST" finished-at="2021-12-07T16:49:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateReport -->
+      </class> <!-- com.tetscases.FlightSearchingTest -->
+      <class name="com.tetscases.HotelTest">
+        <test-method status="PASS" signature="Reportsetup()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="Reportsetup" is-config="true" duration-ms="1" started-at="2021-12-07T16:42:36 IST" finished-at="2021-12-07T16:42:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportsetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="setUp" is-config="true" duration-ms="6665" started-at="2021-12-07T16:46:16 IST" finished-at="2021-12-07T16:46:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="valiadteTitle()[pri:1, instance:com.tetscases.HotelTest@441772e]" name="valiadteTitle" duration-ms="314" started-at="2021-12-07T16:46:23 IST" finished-at="2021-12-07T16:46:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valiadteTitle -->
+        <test-method status="PASS" signature="closesetup()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="closesetup" is-config="true" duration-ms="698" started-at="2021-12-07T16:46:23 IST" finished-at="2021-12-07T16:46:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="setUp" is-config="true" duration-ms="6274" started-at="2021-12-07T16:46:24 IST" finished-at="2021-12-07T16:46:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchfieldTest()[pri:2, instance:com.tetscases.HotelTest@441772e]" name="searchfieldTest" duration-ms="344" started-at="2021-12-07T16:46:30 IST" finished-at="2021-12-07T16:46:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchfieldTest -->
+        <test-method status="PASS" signature="closesetup()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="closesetup" is-config="true" duration-ms="706" started-at="2021-12-07T16:46:30 IST" finished-at="2021-12-07T16:46:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="setUp" is-config="true" duration-ms="6677" started-at="2021-12-07T16:46:31 IST" finished-at="2021-12-07T16:46:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="valiadteinputTest()[pri:3, instance:com.tetscases.HotelTest@441772e]" name="valiadteinputTest" duration-ms="2923" started-at="2021-12-07T16:46:38 IST" finished-at="2021-12-07T16:46:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valiadteinputTest -->
+        <test-method status="PASS" signature="closesetup()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="closesetup" is-config="true" duration-ms="739" started-at="2021-12-07T16:46:41 IST" finished-at="2021-12-07T16:46:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="setUp" is-config="true" duration-ms="6341" started-at="2021-12-07T16:46:41 IST" finished-at="2021-12-07T16:46:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invaliadteinputTest()[pri:4, instance:com.tetscases.HotelTest@441772e]" name="invaliadteinputTest" duration-ms="645" started-at="2021-12-07T16:46:48 IST" finished-at="2021-12-07T16:46:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invaliadteinputTest -->
+        <test-method status="PASS" signature="closesetup()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="closesetup" is-config="true" duration-ms="709" started-at="2021-12-07T16:46:48 IST" finished-at="2021-12-07T16:46:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="setUp" is-config="true" duration-ms="6519" started-at="2021-12-07T16:46:49 IST" finished-at="2021-12-07T16:46:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="noinputTest()[pri:5, instance:com.tetscases.HotelTest@441772e]" name="noinputTest" duration-ms="386" started-at="2021-12-07T16:46:55 IST" finished-at="2021-12-07T16:46:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noinputTest -->
+        <test-method status="PASS" signature="closesetup()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="closesetup" is-config="true" duration-ms="714" started-at="2021-12-07T16:46:56 IST" finished-at="2021-12-07T16:46:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="setUp" is-config="true" duration-ms="6731" started-at="2021-12-07T16:46:57 IST" finished-at="2021-12-07T16:47:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selecthotel()[pri:6, instance:com.tetscases.HotelTest@441772e]" name="selecthotel" duration-ms="10187" started-at="2021-12-07T16:47:03 IST" finished-at="2021-12-07T16:47:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selecthotel -->
+        <test-method status="PASS" signature="closesetup()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="closesetup" is-config="true" duration-ms="764" started-at="2021-12-07T16:47:14 IST" finished-at="2021-12-07T16:47:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="setUp" is-config="true" duration-ms="6820" started-at="2021-12-07T16:47:14 IST" finished-at="2021-12-07T16:47:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="bookinghotelTest()[pri:7, instance:com.tetscases.HotelTest@441772e]" name="bookinghotelTest" duration-ms="16681" started-at="2021-12-07T16:47:21 IST" finished-at="2021-12-07T16:47:38 IST">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+at com.pages.Hotelpage.booking(Hotelpage.java:82)
+at com.pages.Hotelpage.bookingHotel(Hotelpage.java:91)
+at com.tetscases.HotelTest.bookinghotelTest(HotelTest.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookinghotelTest -->
+        <test-method status="PASS" signature="closesetup()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="closesetup" is-config="true" duration-ms="774" started-at="2021-12-07T16:47:38 IST" finished-at="2021-12-07T16:47:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="setUp" is-config="true" duration-ms="6554" started-at="2021-12-07T16:47:39 IST" finished-at="2021-12-07T16:47:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="bookinghotelTestwithinvalidemail()[pri:8, instance:com.tetscases.HotelTest@441772e]" name="bookinghotelTestwithinvalidemail" duration-ms="19453" started-at="2021-12-07T16:47:45 IST" finished-at="2021-12-07T16:48:05 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SOURABHSK', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\91959\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54039}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9680355b7b40020fc86f255c0dc04c77
+*** Element info: {Using=xpath, value=//button[@class='dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SOURABHSK', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\91959\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54039}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9680355b7b40020fc86f255c0dc04c77
+*** Element info: {Using=xpath, value=//button[@class='dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.pages.Hotelpage.booking(Hotelpage.java:83)
+at com.pages.Hotelpage.bookingHotelinvalidemailid(Hotelpage.java:105)
+at com.tetscases.HotelTest.bookinghotelTestwithinvalidemail(HotelTest.java:116)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookinghotelTestwithinvalidemail -->
+        <test-method status="PASS" signature="closesetup()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="closesetup" is-config="true" duration-ms="791" started-at="2021-12-07T16:48:05 IST" finished-at="2021-12-07T16:48:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="setUp" is-config="true" duration-ms="6755" started-at="2021-12-07T16:48:05 IST" finished-at="2021-12-07T16:48:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="bookinghotelTestwithinvalidnumber()[pri:9, instance:com.tetscases.HotelTest@441772e]" name="bookinghotelTestwithinvalidnumber" duration-ms="19691" started-at="2021-12-07T16:48:12 IST" finished-at="2021-12-07T16:48:32 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SOURABHSK', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\91959\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1bdc598ae4ea1f970c260e0d274b455d
+*** Element info: {Using=xpath, value=//button[@class='dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SOURABHSK', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\91959\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1bdc598ae4ea1f970c260e0d274b455d
+*** Element info: {Using=xpath, value=//button[@class='dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.pages.Hotelpage.booking(Hotelpage.java:83)
+at com.pages.Hotelpage.bookingHotelinvalidmobileno(Hotelpage.java:117)
+at com.tetscases.HotelTest.bookinghotelTestwithinvalidnumber(HotelTest.java:128)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookinghotelTestwithinvalidnumber -->
+        <test-method status="PASS" signature="closesetup()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="closesetup" is-config="true" duration-ms="770" started-at="2021-12-07T16:48:32 IST" finished-at="2021-12-07T16:48:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="setUp" is-config="true" duration-ms="6289" started-at="2021-12-07T16:48:33 IST" finished-at="2021-12-07T16:48:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="bookinghotelTestwithnoinput()[pri:10, instance:com.tetscases.HotelTest@441772e]" name="bookinghotelTestwithnoinput" duration-ms="19824" started-at="2021-12-07T16:48:39 IST" finished-at="2021-12-07T16:48:59 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SOURABHSK', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\91959\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b870a969bbb259d0ae04fce5c19309d1
+*** Element info: {Using=xpath, value=//button[@class='dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SOURABHSK', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\91959\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b870a969bbb259d0ae04fce5c19309d1
+*** Element info: {Using=xpath, value=//button[@class='dwebCommonstyles_ButtonBase-sc-112ty3f-10 GuestDetailsBlockstyles_CustomButton-sc-1rzm4ar-6 KETBj blGWwt']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.pages.Hotelpage.booking(Hotelpage.java:83)
+at com.pages.Hotelpage.bookingHotelnoinput(Hotelpage.java:132)
+at com.tetscases.HotelTest.bookinghotelTestwithnoinput(HotelTest.java:135)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookinghotelTestwithnoinput -->
+        <test-method status="PASS" signature="closesetup()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="closesetup" is-config="true" duration-ms="803" started-at="2021-12-07T16:48:59 IST" finished-at="2021-12-07T16:49:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesetup -->
+        <test-method status="PASS" signature="GenerateReport()[pri:0, instance:com.tetscases.HotelTest@441772e]" name="GenerateReport" is-config="true" duration-ms="27" started-at="2021-12-07T16:49:00 IST" finished-at="2021-12-07T16:49:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateReport -->
+      </class> <!-- com.tetscases.HotelTest -->
+      <class name="com.tetscases.SignupTest">
+        <test-method status="PASS" signature="Reportsetup()[pri:0, instance:com.tetscases.SignupTest@61862a7f]" name="Reportsetup" is-config="true" duration-ms="0" started-at="2021-12-07T16:42:36 IST" finished-at="2021-12-07T16:42:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportsetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tetscases.SignupTest@61862a7f]" name="setup" is-config="true" duration-ms="4396" started-at="2021-12-07T16:45:29 IST" finished-at="2021-12-07T16:45:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateSignUpwithInvalidMobile()[pri:0, instance:com.tetscases.SignupTest@61862a7f]" name="ValidateSignUpwithInvalidMobile" duration-ms="709" started-at="2021-12-07T16:45:34 IST" finished-at="2021-12-07T16:45:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSignUpwithInvalidMobile -->
+        <test-method status="PASS" signature="closeSetup()[pri:0, instance:com.tetscases.SignupTest@61862a7f]" name="closeSetup" is-config="true" duration-ms="704" started-at="2021-12-07T16:45:34 IST" finished-at="2021-12-07T16:45:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tetscases.SignupTest@61862a7f]" name="setup" is-config="true" duration-ms="4378" started-at="2021-12-07T16:45:35 IST" finished-at="2021-12-07T16:45:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateSignUpwithValidMobileInvalidOtp()[pri:1, instance:com.tetscases.SignupTest@61862a7f]" name="validateSignUpwithValidMobileInvalidOtp" duration-ms="8482" started-at="2021-12-07T16:45:39 IST" finished-at="2021-12-07T16:45:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpwithValidMobileInvalidOtp -->
+        <test-method status="PASS" signature="closeSetup()[pri:0, instance:com.tetscases.SignupTest@61862a7f]" name="closeSetup" is-config="true" duration-ms="779" started-at="2021-12-07T16:45:48 IST" finished-at="2021-12-07T16:45:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tetscases.SignupTest@61862a7f]" name="setup" is-config="true" duration-ms="5692" started-at="2021-12-07T16:45:49 IST" finished-at="2021-12-07T16:45:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateSignUpwithValidMobileValidOtp()[pri:2, instance:com.tetscases.SignupTest@61862a7f]" name="ValidateSignUpwithValidMobileValidOtp" duration-ms="20916" started-at="2021-12-07T16:45:54 IST" finished-at="2021-12-07T16:46:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSignUpwithValidMobileValidOtp -->
+        <test-method status="PASS" signature="closeSetup()[pri:0, instance:com.tetscases.SignupTest@61862a7f]" name="closeSetup" is-config="true" duration-ms="717" started-at="2021-12-07T16:46:15 IST" finished-at="2021-12-07T16:46:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method status="PASS" signature="GenerateReport()[pri:0, instance:com.tetscases.SignupTest@61862a7f]" name="GenerateReport" is-config="true" duration-ms="13" started-at="2021-12-07T16:49:00 IST" finished-at="2021-12-07T16:49:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateReport -->
+      </class> <!-- com.tetscases.SignupTest -->
+      <class name="com.tetscases.LoginPageTest">
+        <test-method status="PASS" signature="Reportsetup()[pri:0, instance:com.tetscases.LoginPageTest@498d318c]" name="Reportsetup" is-config="true" duration-ms="1" started-at="2021-12-07T16:42:36 IST" finished-at="2021-12-07T16:42:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportsetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tetscases.LoginPageTest@498d318c]" name="setup" is-config="true" duration-ms="6451" started-at="2021-12-07T16:42:36 IST" finished-at="2021-12-07T16:42:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateLoginwithInvalidMobile()[pri:3, instance:com.tetscases.LoginPageTest@498d318c]" name="ValidateLoginwithInvalidMobile" duration-ms="713" started-at="2021-12-07T16:42:43 IST" finished-at="2021-12-07T16:42:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginwithInvalidMobile -->
+        <test-method status="PASS" signature="closeSetup()[pri:0, instance:com.tetscases.LoginPageTest@498d318c]" name="closeSetup" is-config="true" duration-ms="693" started-at="2021-12-07T16:42:44 IST" finished-at="2021-12-07T16:42:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tetscases.LoginPageTest@498d318c]" name="setup" is-config="true" duration-ms="4599" started-at="2021-12-07T16:42:44 IST" finished-at="2021-12-07T16:42:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLoginwithValidMobileInvalidOtp()[pri:4, instance:com.tetscases.LoginPageTest@498d318c]" name="validateLoginwithValidMobileInvalidOtp" duration-ms="13041" started-at="2021-12-07T16:42:49 IST" finished-at="2021-12-07T16:43:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginwithValidMobileInvalidOtp -->
+        <test-method status="PASS" signature="closeSetup()[pri:0, instance:com.tetscases.LoginPageTest@498d318c]" name="closeSetup" is-config="true" duration-ms="734" started-at="2021-12-07T16:43:02 IST" finished-at="2021-12-07T16:43:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tetscases.LoginPageTest@498d318c]" name="setup" is-config="true" duration-ms="4936" started-at="2021-12-07T16:43:03 IST" finished-at="2021-12-07T16:43:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateLoginwithValidMobileValidOtp()[pri:5, instance:com.tetscases.LoginPageTest@498d318c]" name="ValidateLoginwithValidMobileValidOtp" duration-ms="13578" started-at="2021-12-07T16:43:08 IST" finished-at="2021-12-07T16:43:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginwithValidMobileValidOtp -->
+        <test-method status="PASS" signature="closeSetup()[pri:0, instance:com.tetscases.LoginPageTest@498d318c]" name="closeSetup" is-config="true" duration-ms="729" started-at="2021-12-07T16:43:21 IST" finished-at="2021-12-07T16:43:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method status="PASS" signature="GenerateReport()[pri:0, instance:com.tetscases.LoginPageTest@498d318c]" name="GenerateReport" is-config="true" duration-ms="18" started-at="2021-12-07T16:49:00 IST" finished-at="2021-12-07T16:49:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateReport -->
+      </class> <!-- com.tetscases.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
